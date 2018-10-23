@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_margin="10dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="#4f9fff"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/bo_img"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius_bottom_right="16dp"
+                app:riv_corner_radius_top_right="16dp"
+                android:layout_width="180dp"
+                android:src="@mipmap/nv"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_width="180dp"
+                android:background="@drawable/boitem"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="25dp">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_alignParentRight="true"
+                        app:riv_corner_radius="1000dp"
+                        android:layout_width="30dp"
+                        android:src="@mipmap/bo"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:shadowColor="#000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="1"
+                        android:id="@+id/date"
+                        android:textColor="#fff"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="5dp"
+                        android:text="-  消息来自  2018年9月15日    12:33"
+                        android:singleLine="true"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:textColor="#fff"
+                    android:id="@+id/content"
+                    android:layout_width="250dp"
+                    android:layout_weight="1"
+                    android:layout_height="1dp"
+                    android:shadowColor="#000"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="1"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="5"
+                    android:text="         我是一条内容我是一条内容我容我是容条内容我是容条内容我是容条内容我是容条内容我是容是一条内容我是容我是一条内容我是容我是一条内容我是容我是一条内容我是一条内容我是一条内容我是一条内容我是一条内容我是一条内容我是一条内容我是一条内容我是一条内容"
+                    />
+
+                <LinearLayout
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:id="@+id/item_del1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:padding="3dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/delete"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/copy1"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:padding="3dp"
+                        android:src="@mipmap/copy"
+                        />
+
+                    <LinearLayout
+                        android:padding="3dp"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp">
+
+                        <ImageView
+                            android:id="@+id/nice1"
+                            android:layout_width="30dp"
+                            android:layout_marginRight="3dp"
+                            android:src="@mipmap/nice"
+                            android:layout_height="match_parent" />
+
+                        <TextView
+                            android:id="@+id/nice1_v"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:textColor="#fff"
+                            android:text="0"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card2"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="#ffafcf"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/nv_img"
+                android:layout_alignParentRight="true"
+                app:riv_corner_radius_bottom_right="16dp"
+                app:riv_corner_radius_top_right="16dp"
+                android:layout_width="180dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/nv"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_width="180dp"
+                android:background="@drawable/nvitem"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="25dp">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_alignParentRight="true"
+                        app:riv_corner_radius="1000dp"
+                        android:layout_width="30dp"
+                        android:src="@mipmap/nv"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:shadowColor="#000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="1"
+                        android:id="@+id/date2"
+                        android:textSize="12sp"
+                        android:textColor="#fff"
+                        android:layout_marginLeft="5dp"
+                        android:text="-  消息来自  2018年9月15日    12:33"
+                        android:singleLine="true"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:shadowColor="#000"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="1"
+                    android:id="@+id/content2"
+                    android:textColor="#fff"
+                    android:layout_width="250dp"
+                    android:layout_weight="1"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="5"
+                    android:text="         我是一条内容我是一条内容我容我是容条内容我是容条内容我是容条内容我是容条内容我是容是一条内容我是容我是一条内容我是容我是一条内容我是容我是一条内容我是一条内容我是一条内容我是一条内容我是一条内容我是一条内容我是一条内容我是一条内容我是一条内容"
+                    />
+
+                <LinearLayout
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:id="@+id/item_del2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:padding="3dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/delete"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/copy2"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:padding="3dp"
+                        android:src="@mipmap/copy"
+                        />
+
+                    <LinearLayout
+                        android:padding="3dp"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp">
+
+                        <ImageView
+                            android:id="@+id/nice2"
+                            android:layout_width="30dp"
+                            android:layout_marginRight="3dp"
+                            android:src="@mipmap/nice"
+                            android:layout_height="match_parent" />
+
+                        <TextView
+                            android:id="@+id/nice2_v"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:textColor="#fff"
+                            android:text="0"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <LinearLayout
+        android:id="@+id/card3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:cardBackgroundColor="#40000000"
+            android:minHeight="30dp"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/content3"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:layout_width="match_parent"
+                android:text="更新内容"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:minHeight="30dp"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/date3"
+            android:layout_width="match_parent"
+            android:text="更新时间 22:34"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:gravity="right"
+            android:textSize="10sp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/card4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+</LinearLayout>

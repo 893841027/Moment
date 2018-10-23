@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/su"
+        android:title="SuperU  "
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/refresh"
+        android:title="刷新"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/exit"
+        android:title="退出"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        />
+
+</menu>
